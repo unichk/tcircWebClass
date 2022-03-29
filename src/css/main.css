@@ -1,0 +1,39 @@
+/* https://coolors.co/655a7c-ab92bf-afc1d6-cef9f2 */
+
+body {
+    --color-container:#AFC1D6;
+    --color-mainword:#443aa1;
+    --color-light:#CEF9F2;
+    --color-error:#cc3333;
+    --color-seccess:#4bb544;
+    --border-radius: 4px
+
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-size: 18px;
+    background-color: #655A7C;
+}
+
+.container{
+    width: 480px;
+    max-width: 480px;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: var(--border-radius);
+    background: var(--color-container);
+    font-family: "Trebuchet MS", sans-serif;
+    font-weight: 500;
+    color: var(--color-mainword);
+}
+
+.form > *:first-child{
+    margin-top: 0;
+}
+
+.form >*:last-child{
+    margin-bottom: 0;
+}
