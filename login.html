@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Login page</title>
+    <meta charset="utf-8">
+    <meta name="description" content="This is the login page">
+    <meta name="keywords" content="login, register">
+    <meta name="author" content="unicorn">
+    <meta name="copyright" content="版權歸屬">
+    <link rel="icon" href="src/img/favicon.png">
+    <link rel="stylesheet" href="src/css/login.css">
+</head>
+
+<body>
+    <div class="container">
+        <form class="form" id="login">
+            <h1 class="Login_title">Login</h1>
+            <div class="error message_wrong username/pw">Incorrect username/password combination</div>
+            <div class="input_group">
+                <label for="username" class="label">Username</label>
+                <input type="text" class="input" id="username" name="username" placeholder="Username">
+                <div class="error message_wrong username">Invalid username</div>
+            </div>
+            <div class="input_group">
+                <label for="password" class="label">Password</label>
+                <input type="password" class="input" id="password" name="password" placeholder="Password">
+                <div class="error message_wrong password">Wrong password</div>
+            </div>
+            <p class="text">
+                <a href="register.html" class="link">Don't have an account? Create account</a>
+            </p>
+            <p>
+                <a href="#" class="link">Forgot password?</a>
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>
