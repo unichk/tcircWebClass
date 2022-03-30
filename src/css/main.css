@@ -1,9 +1,9 @@
 /* https://coolors.co/655a7c-ab92bf-afc1d6-cef9f2 */
 
 body {
-    --color-background: #655a7c;
+    --color-background: #5d498a;
     --color-container:#AFC1D6;
-    --color-mainword:#443aa1;
+    --color-mainword:#000000;
     --color-error:#cc3333;
     --color-seccess:#4bb544;
     --color-shadow: rgba(0, 0, 0, 0.5);
@@ -12,7 +12,7 @@ body {
     --color-inputbox-focus: #ffffff;
     --color-button-text: #ffffff;
     --color-button: #a78ae6;
-    --color-link: #0000EE;
+    --color-link: #000000;
     --border-radius: 10px;
 
     margin: 0;
