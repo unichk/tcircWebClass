@@ -34,28 +34,28 @@
         </div>
         <div class="form form-hidden" id="register-form" autocomplete="off" method="post">
             <h1 class="form_title">Create Account</h1>
-            <div class="form_message form_message--error">Something went wrong</div>
+            <div class="form_message form_message--error" id="register-form-message"></div>
             <div class="form_input-group">
                 <label for="username" class="form_label">Username</label>
-                <input type="text" class="form_input" name="username" placeholder="Username">
-                <div class="form_input-error-message">Invalid username</div>
+                <input type="text" class="form_input" id="register-username" name="username" placeholder="Username">
+                <div class="form_input-error-message" id="register_Username-message"></div>
             </div>
             <div class="form_input-group">
                 <label for="email address" class="form_label">Email address</label>
-                <input type="email" class="form_input" name="email-address" placeholder="Email address">
-                <div class="form_input-error-message">Invalid email address</div>
+                <input type="email" class="form_input" id="register-email" name="email-address" placeholder="Email address">
+                <div class="form_input-error-message" id="register_Email-message"></div>
             </div>
             <div class="form_input-group">
                 <label for="password" class="form_label">Password</label>
-                <input type="password" class="form_input" name="password" placeholder="Password">
-                <div class="form_input-error-message">Wrong password</div>
+                <input type="password" class="form_input" id="register-password" name="password" placeholder="Password">
+                <div class="form_input-error-message" id="register_Password-message"></div>
             </div>
             <div class="form_input-group">
                 <label for="confirm password" class="form_label">Confirm password</label>
-                <input type="password" class="form_input" name="confirm-password" placeholder="Confirm-password">
-                <div class="form_input-error-message form-hidden">Different password</div>
+                <input type="password" class="form_input" name="confirm-password" id="register-confirm-password" placeholder="Confirm-password">
+                <div class="form_input-error-message" id="register_ConfirmPassword-message"></div>
             </div>
-            <button class="form_button" type="submit">Create</button>
+            <button class="form_button" type="submit" id="register">Create</button>
             <p class="form_text form_link" id="to-login">Already have an account? Sign in</p>
         </div>
     </div>
