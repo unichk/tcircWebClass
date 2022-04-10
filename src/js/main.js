@@ -29,6 +29,13 @@ document.getElementById('login').addEventListener("click", ()=>{
         document.getElementById('login-form').classList.add("form-hidden");
     }else{
         removemsg(document.getElementById('login_form-message'));
-        addErrormsg(document.getElementById('login_form-message'), "Incorrect username/password combination")
+        removemsg(document.getElementById('login_username-message'));
+        removemsg(document.getElementById('login_password-message'));
+        addErrormsg(document.getElementById('login_form-message'), "Incorrect username/password combination");
+        if(loginUsr != "admin"){
+            addErrormsg(document.getElementById('login_username-message'), "Incorrect username");
+        }else if(loginPwd != "a"){
+            addErrormsg(document.getElementById('login_password-message'), "Incorrect password");
+        }
     }
 });
