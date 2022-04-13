@@ -1,4 +1,14 @@
-document.getElementById("to-register").addEventListener("click", () => {
+setTimeout(() => {
+    alert("請不要在此網站輸入您常使用的密碼，此網站沒有任何防護");
+    setTimeout(() => {
+        alert("請不要在此網站輸入您常使用的密碼，此網站沒有任何防護");
+        setTimeout(() => {
+            alert("請不要在此網站輸入您常使用的密碼，此網站沒有任何防護");
+        }, 1000)
+    }, 1000);
+}, 1000);
+
+document.querySelector("#to-register").addEventListener("click", () => {
     document.getElementById("login-form").classList.add("form-hidden");
     document.getElementById("register-form").classList.remove("form-hidden");
 });
